@@ -1,0 +1,119 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-01-30T22:01:42.623Z",
+    "end": "2021-01-30T22:02:07.194Z",
+    "duration": 24571,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "a12e8cd3-b2ff-431e-9493-06c0604d9dd8",
+      "title": "",
+      "fullFile": "cypress\\integration\\examples\\codenboxTest.js",
+      "file": "cypress\\integration\\examples\\codenboxTest.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "82e7e28c-4d39-4391-9652-500b67437351",
+          "title": "My test suite",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "practice page test casse",
+              "fullTitle": "My test suite practice page test casse",
+              "timedOut": null,
+              "duration": 13749,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_PracticePage[\"default\"].getTitle();\n_PracticePage[\"default\"].getDropdownOption();\n_PracticePage[\"default\"].searchCountry();\n_PracticePage[\"default\"].clickonRegForm();",
+              "err": {},
+              "uuid": "243b230e-375d-481e-81e4-56075aab2e8c",
+              "parentUUID": "82e7e28c-4d39-4391-9652-500b67437351",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "registration page test casse",
+              "fullTitle": "My test suite registration page test casse",
+              "timedOut": null,
+              "duration": 6455,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_RegistrationPage[\"default\"].getFirstName(\"sam\");\n_RegistrationPage[\"default\"].getLastName(\"jecksion\");\n_RegistrationPage[\"default\"].getEmail(\"sam@test.com\");\n_RegistrationPage[\"default\"].selectDropdown();\n_RegistrationPage[\"default\"].selectCheckbox();\n_RegistrationPage[\"default\"].submitForm();",
+              "err": {},
+              "uuid": "7204ab4d-efb4-49b4-9cc0-b1f5b1b982d6",
+              "parentUUID": "82e7e28c-4d39-4391-9652-500b67437351",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "243b230e-375d-481e-81e4-56075aab2e8c",
+            "7204ab4d-efb4-49b4-9cc0-b1f5b1b982d6"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 20204,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.1.0"
+    }
+  }
+}

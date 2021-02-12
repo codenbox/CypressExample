@@ -1,0 +1,21 @@
+{
+  "name": "cypressexample",
+  "version": "1.0.0",
+  "description": "Cypress Example Automation",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:dashboad":"cypress run --record --key 9dfdb338-246c-4e93-bfda-6560574b724f"
+  },
+  "keywords": [
+    "Cypress",
+    "cucumber"
+  ],
+  "author": "sariful",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.1.0",
+    "mocha": "^8.2.1",
+    "mochawesome": "^6.2.1"
+  }
+}

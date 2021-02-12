@@ -1,0 +1,17 @@
+{
+
+     "chromeWebSecurity": false,
+     "reporter": "mochawesome",
+     "projectId": "38gdo9",
+     
+
+     "env":
+     {
+          "url": "https://codenboxautomationlab.com/"
+
+     }
+     
+     
+     
+
+}
